@@ -13,7 +13,6 @@ We used basic concepts of Ruby on Rails including:
 - Routing
 - Migrations
 - Views with forms, partials, and helpers
-- RESTful design
 - Adding gems for extra features
 
 ## To install and run
