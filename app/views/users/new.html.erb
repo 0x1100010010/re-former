@@ -1,19 +1,5 @@
-<%= form_for @user do |u| %>
-  <p>
-    <%= u.label :username %>
-    <%= u.text_field :username, placeholder: "Your username" %>
-  </p>
-  <p>
-    <%= u.label :email %>
-    <%= u.text_field :email, placeholder: "Email" %>
-  </p>
-  <p>
-    <%= u.label :password %>
-    <%= u.password_field :password, placeholder: "password"%>
-  </p>
-  <br>
-  <%= u.submit %>
-<% end %>
+<h1>CREATE A NEW USER</h1>
+<%=render 'form'%>
  <%# did what previous TSE told to fix %>
 <%# 
  <form action="/users" method="post">
@@ -23,6 +9,6 @@
   <input type="text" id="email" name="user[email]"><br><br>
   <label for="password">Password:</label>
   <input type="text" id="password" name="user[password]"><br><br>
-  <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
+  <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>
   <%# <input type="submit" value="Submit">
-</form>  %> %>
+</form>  %> 

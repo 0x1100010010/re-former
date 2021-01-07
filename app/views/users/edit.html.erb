@@ -1,16 +1,2 @@
-<%= form_for @user do |u| %>
-  <p>
-    <%= u.label :username %>
-    <%= u.text_field :username, placeholder: "Your username" %>
-  </p>
-  <p>
-    <%= u.label :email %>
-    <%= u.text_field :email, placeholder: "Email" %>
-  </p>
-  <p>
-    <%= u.label :password %>
-    <%= u.password_field :password, placeholder: "password"%>
-  </p>
-  <br>
-  <%= u.submit %>
-<% end %>
+<h1>edit previous form</h1>
+<%=render 'form'%>
